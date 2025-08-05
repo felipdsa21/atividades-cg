@@ -1,0 +1,10 @@
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments:
+  Kind: Never
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakBeforeMultilineStrings: true
+ColumnLimit: 110
+ContinuationIndentWidth: 2
+IndentWidth: 2
+InsertBraces: true
