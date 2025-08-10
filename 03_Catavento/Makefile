@@ -7,7 +7,7 @@ ERROR_CFLAGS := -Wall -Wc++-compat -Wconversion -Wextra -Wpedantic -Wvla
 CFLAGS := $(ERROR_CFLAGS) $(shell pkgconf --cflags freeglut) $(CFLAGS)
 LDLIBS := $(TARGET_LDLIBS) $(shell pkgconf --libs freeglut)
 
-NAME := flor_de_abril
+NAME := catavento
 OUT_FILE := $(NAME)$(BINEXT)
 
 .PHONY: build
