@@ -52,7 +52,7 @@ static void display(void) {
 }
 
 static void rotate(void) {
-  currentAngle = (currentAngle + 1) % 360;
+  currentAngle = (currentAngle + 4) % 360;
   glutPostRedisplay();
 }
 
